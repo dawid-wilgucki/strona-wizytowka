@@ -24,7 +24,7 @@
         linear-gradient(135deg, rgba(3,7,18,0.88) 0%, rgba(17,24,39,0.75) 50%, rgba(3,7,18,0.92) 100%),
         url('main_photo.jpg');
       background-size: cover;
-      background-position: center;
+      background-position: center 18%;
       background-attachment: fixed;
     }
 
