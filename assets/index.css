@@ -59,6 +59,11 @@
     #lightbox.open { display: flex; }
     #lightbox img { max-width: 92vw; max-height: 88vh; border-radius: 12px; }
 
+    /* MAPA DOJAZDU */
+    .map-link { cursor: pointer; }
+    .map-link .map-hint { transition: background 0.2s, border-color 0.2s, transform 0.2s; }
+    .map-link:hover .map-hint { background: #FAA808; border-color: #FAA808; color: #111827; transform: translateX(-50%) translateY(-2px); }
+
     /* PRICING */
     .price-row:nth-child(odd) { background: rgba(255,255,255,0.03); }
     .price-row:hover { background: rgba(250,168,8,0.06); }
